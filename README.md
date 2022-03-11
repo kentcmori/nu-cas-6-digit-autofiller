@@ -16,12 +16,14 @@ https://twitter.com/qastad/status/1502102011629555715
 - JavaScript/Chrome Exntensions/OTP の知識が十分ある方の利用を想定しています。重大なセキュリティのリスクがありますので、それ以外の方は絶対に使わないてください。
 - シードは平文で保管されていますが、変更をおすすめします。
 - 本プログラムによるいかなる結果への責任を負いません。
+- **認証シードは厳重に扱ってください**
 
 ### English
 
 - This program is intended for use by those with sufficient knowledge of JavaScript/Chrome Exntensions/OTP. Please do not use this program if you are not familiar with these, as it can pose serious security risks.
 - The seed (needed for generating 6-digit number) is stored in plain text, but I recommend you to change it.
 - No responsibility is assumed for any consequences resulting from this program.
+- **Please treat the authentification seed with the utmost care.**
 
 # インストール / Installation
 ### ①ダウンロード
@@ -34,7 +36,7 @@ https://auth-mfa.nagoya-u.ac.jp/gauth-manager/
 
 ### ③popup.jsを開き、認証シードを編集
 関数totp内のyour seed部分(25行目)を②で取得した認証シードに置き換え  
-**認証シードは厳重に扱ってください**
+
 
 ### ④Chromeを開き拡張機能を追加
 Chrome://extensions を開き、右上からデベロッパーモードをONに  
