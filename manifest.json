@@ -1,0 +1,23 @@
+{
+  "name": "NU-CAS 6-digit autofiller",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.6",
+  "description": "generate 6-digit number needed for annoying two-factor authentification when logging in  NU-CAS",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_title": "NU-CAS 6-digit autofiller",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+        {
+          "run_at":"document_end",
+          "matches": ["https://auth-mfa.nagoya-u.ac.jp/*"],
+          "js": ["content_script.js"]
+        }
+      ]
+}
