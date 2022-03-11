@@ -29,7 +29,7 @@ https://twitter.com/qastad/status/1502102011629555715
 https://auth-mfa.nagoya-u.ac.jp/gauth-manager/ 
 
 認証シードは大文字と数字の羅列です。(例:ADSF13~)  
-スマホでもログイン可能なよう、**必ずQRコードを認証アプリに登録してください。**(失敗するとロックアウトされます)  
+スマホでもログイン可能なよう、**必ずQRコードを認証アプリ(Google Authentificatorなど)に登録してください。**(失敗するとロックアウトされます)  
 登録したら「登録(Register)」をクリック。
 
 ### ③popup.jsを開き、認証シードを編集
