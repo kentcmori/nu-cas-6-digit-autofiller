@@ -13,14 +13,14 @@ https://twitter.com/qastad/status/1502102011629555715
 - Google Chrome
 
 ## 免責事項 / Attention!
-- JavaScript/Chrome Exntensions/OTP の知識が十分ある方の利用を想定しています。重大なセキュリティのリスクがありますので、それ以外の方は絶対に使わないてください。
+- JavaScript/Chrome Exntensions/OTP/Github の知識が十分ある方の利用を想定しています。重大なセキュリティのリスクがありますので、それ以外の方は絶対に使わないてください。
 - シードは平文で保管されていますが、変更をおすすめします。
 - 本プログラムによるいかなる結果への責任を負いません。
 - **認証シードは厳重に扱ってください**
 
 ### English
 
-- This program is intended for use by those with sufficient knowledge of JavaScript/Chrome Exntensions/OTP. Please do not use this program if you are not familiar with these, as it can pose serious security risks.
+- This program is intended for use by those with sufficient knowledge of JavaScript/Chrome Exntensions/OTP and Github. Please do not use this program if you are not familiar with these, as it can pose serious security risks.
 - The seed (needed for generating 6-digit number) is stored in plain text, but I recommend you to change it.
 - No responsibility is assumed for any consequences resulting from this program.
 - **Please treat the authentification seed with the utmost care.**
