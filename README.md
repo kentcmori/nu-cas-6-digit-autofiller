@@ -6,7 +6,7 @@ NU-CASにログインするときに必要な6桁のコードを自動生成・�
 
 
 ## デモ / DEMO
-https://twitter.com/qastad/status/1502102011629555715
+https://www.youtube.com/watch?v=qDO4_NdSacU
 
 ## 環境 / Environment
 - Windows 10 or 11
